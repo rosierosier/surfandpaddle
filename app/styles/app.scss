@@ -15,3 +15,608 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 img {
   max-width: 100%;
 }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+header {
+  background: url('http://i.telegraph.co.uk/multimedia/archive/02134/surf-wave_2134340b.jpg') center, center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 523px;
+  position: relative;
+}
+
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 125, 230, 0.8);
+}
+
+
+/* Position these to bring them above overlay */
+
+nav, h1, h4 {
+  position: relative;
+}
+
+
+nav {
+  max-width: 1018px;
+  margin: 0 auto;
+  padding-right: 2.7504912%;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo-container {
+  float: left;
+  margin-top: 6px;
+  margin-left: 14px;
+}
+
+.logo-container h2 {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  vertical-align: middle;
+  margin-top: 10.5px;
+  letter-spacing: 0.35px;
+  position: relative;
+  padding-left: 3px;
+  left: 5;
+  bottom: 1;
+  font-weight: lighter;
+}
+
+.logo-container img {
+  vertical-align: middle;
+}
+
+.header-links {
+  float: right;
+  list-style: none;
+  letter-spacing: 0.5px;
+}
+
+.header-links li {
+  display: inline-block;
+  padding-right: 12px;
+}
+
+.header-links li img {
+  vertical-align: bottom;
+  margin-right: -5px;
+}
+
+.header-nav-link a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-nav-link a:hover {
+  color: white;
+}
+
+/*.header-links li span {
+  display: inline-block;
+  line-height: 26px;
+  vertical-align: middle;
+}*/
+
+.logo-head {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 65px;
+  letter-spacing: -3px;
+  margin-bottom: 0;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: -16px;
+  font-size: 15px;
+  font-weight: lighter;
+  padding-right: 1px;
+  letter-spacing: 0.2px;
+
+}
+
+.blog-container {
+  margin-top: -15px;
+  margin-left: 164px;
+  width: 621px;
+  display: inline-block;
+  float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h3 {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 64px;
+  color: #003354;
+  letter-spacing: -1.9px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.subhead {
+  margin-top: -3px;
+  letter-spacing: -1.4px;
+  line-height: 80%;
+}
+
+.by-line {
+  margin-left: 4px;
+  margin-bottom: 0px;
+}
+
+.by-line img {
+  display: inline-block;
+  border-radius: 100%;
+  max-width: 100%;
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+  margin-bottom: 0;
+  margin-top: 8px;
+  float: left;
+  position: relative;
+}
+
+
+.by-line h5 {
+  font-family: 'Open Sans', sans-serif;
+  color: #006bb9;
+  font-size: 13px;
+  display: inline-block;
+  padding-left: 5px;
+  font-weight: lighter;
+  clear: left;
+  margin-top: 12px;
+  margin-left: 3px;
+}
+
+#calendar-link {
+  color: #a0b3c0;
+}
+
+#calendar-link a {
+  color: #a0b3c0;
+}
+
+#calendar-link a:hover {
+  color: #006bb9;
+}
+
+.blog-text p{
+  margin-top: 14.1px;
+  margin-bottom: 5px;
+  letter-spacing: -0.3px;
+  padding-bottom: 13px;
+  line-height: 1.60;
+  word-spacing: -0.2px;
+}
+
+.blog-text a {
+  color: #a0b3c0;
+}
+
+.blog-text a:hover {
+  color: #006bb9;
+}
+
+blockquote {
+  color: #0069b8;
+  font-size: 27px;
+  position: relative;
+  border-left: 1.5px solid grey;
+  margin: -6px 0 28px 6px;
+  height: 57px;
+}
+
+blockquote p {
+  padding-top: 11px;
+  padding-bottom: -7.5px;
+  padding-left: 18px;
+  margin-top: -6px;
+  letter-spacing: 1.8px;
+  word-spacing: 0.2px;
+}
+
+
+.sidebar {
+  width: 280px;
+  display: inline-block;
+  margin-top: 84px;
+  position: relative;
+  left: 77px;
+}
+
+.author img {
+  border-radius: 100%;
+  width: 82px;
+  height: 82px;
+  margin: 0 auto;
+  position: relative;
+  left: 99px;
+}
+
+.author > a {
+  border-radius: 100%;
+  width: 70px;
+  height: 82px;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  left: 13px;
+  right: 0px;
+  background-color: rgba(0, 125, 200, 0.5);
+}
+
+.author > a:hover {
+  background-color: transparent;
+}
+
+.author h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #0069b8;
+  text-align: center;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 7px;
+  margin-bottom: 0;
+}
+
+.author a {
+  text-decoration: none;
+  color: #b1c1cc;
+  text-align: right;
+  font-size: 13px;
+  margin-right: 0px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  letter-spacing: 0.3px;
+  padding-right: 12.4px;
+}
+
+.author a:hover {
+  color: #0069b8;
+}
+
+.social-media {
+  display: inline-block;
+  position: relative;
+  left: 44px;
+  margin-top: -6px;
+  margin-bottom: 46px;
+}
+
+.ad-image img {
+  max-width: 100%;
+  width: 278px;
+  height: 300px;
+  float: right;
+  position: absolute;
+}
+
+.ad-image a {
+  width: 278px;
+  height: 300px;
+  float: right;
+  box-sizing: border-box;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 1px;
+  left: -1;
+  background-color: rgba(0, 125, 200, 0.5);
+}
+
+.ad-image a:hover {
+  background-color: transparent;
+}
+
+
+.ad a {
+  color: #b1c1cc;
+  text-align: right;
+  font-size: 13px;
+  margin-left: 193px;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.ad a:hover {
+  color: #0069b8;
+}
+
+.sidebar-text h2 {
+  font-size: 15px;
+  color: #0069b8;
+  margin-top: 46px;
+  letter-spacing: 0.92px;
+}
+
+.sidebar-text p {
+  margin-top: -8px;
+  font-size: 13px;
+  color: #a0b3c0;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  width: 276px;
+}
+
+.sidebar-text a {
+  color: #a0b3c0;
+}
+
+.sidebar-text a:hover {
+  color: #0069b8;
+}
+
+.buttons ul {
+  padding-left: 0;
+  margin-left: 3px;
+  margin-top: 8px;
+  margin-bottom: 67px;
+}
+
+.buttons li {
+  display: inline-block;
+  list-style: none;
+  color: white;
+  background-color: #9fb3c0;
+  margin-right: 6.5px;
+  padding-right: 8px;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  display: inline-block;
+  list-style: none;
+  background-color: #9fb3c0;
+  margin-left: 8.5px;
+  padding-right: 4px;
+}
+
+.buttons i {
+  background-color: #5c6870;
+  font-size: 14px;
+  padding: 8px 9.5px;
+}
+
+.read-later a {
+  padding-right: 8px;
+  margin-left: 8px;
+}
+
+#share-post a {
+  padding-right: 8px;
+  background-color: #0069b8;
+}
+
+.buttons li:nth-child(3) {
+  background-color: #0069b8;
+}
+
+.buttons i:nth-last-child {
+  background-color: #003354;
+}
+
+.most-popular {
+  display: block;
+  clear: both;
+  border-top: 1px solid grey;
+}
+
+.popular-head {
+  width: 100%;
+  display: inline-block;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 31px;
+  text-transform: uppercase;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+}
+
+.popular-head h1 {
+  display: inline-block;
+  margin-top: 25px;
+  color: #003354;
+  letter-spacing: -0.7px;
+  margin-bottom: 30px;
+  text-align: center;
+  // position: relative;
+  // left: 368px;
+}
+
+.popular-links {
+  height: 330px;
+}
+
+.another-cool {
+  height: 330px;
+  background: url("http://www.best-beaches.com/images/hawaiian-beaches/hawaiian-beach-hawaii.jpg") center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.post-title {
+  height: 330px;
+  background: url("http://aqua.org/~/media/Images/Animals/Green%20Sea%20Turtle/animals-GreenSeaTurtle-Slide3-web.jpg") center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.longer-post {
+  height: 330px;
+  background: url("http://coolplacedestinations.co/wp-content/uploads/2015/10/hawaii-beaches-wallpaper-gv3ahqmmf.jpg") center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.cool-post {
+  height: 330px;
+  background: url("http://scienceburger.com/wp-content/uploads/2015/07/dolphins-816x612.jpg") center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.popular-links a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  float: left;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  color: #003354;
+  text-align: left;
+  box-sizing: border-box;
+  padding-left: 18px;
+  position: relative;
+  padding-top: 278px;
+  font-size: 29px;
+  background-color: rgba(0, 125, 200, 0.5);
+}
+
+.popular-links a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.popular-links img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  // position: absolute;
+  // left: 0;
+}
+
+.col-md-3,
+.col-sm-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.post-title img {
+  left: 325px;
+}
+
+.post-title a {
+  padding-left: 19px;
+}
+
+.longer-post a {
+  padding-top: 243px;
+  line-height: 36px;
+  word-spacing: 1.5px;
+  letter-spacing: 0.6px;
+  padding-right: 10px;
+}
+
+.longer-post img {
+  left: 650px;
+}
+
+.cool-post a {
+  padding-left: 21px;
+}
+
+.cool-post img {
+  left: 975px;
+}
+
+.footer {
+  display: block;
+  clear: both;
+  background-color: #003354;
+  height: 97px;
+}
+
+.TIY img {
+  max-width: 100%;
+  display: inline-block;
+  float: left;
+  margin-left: 152px;
+  margin-top: 13px;
+}
+
+.TIY p {
+  display: inline-block;
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0.08px;
+  margin-top: 38px;
+  margin-left: 5px;
+}
+
+.footer-nav {
+  float: right;
+  margin-top: 41px;
+  margin-right: 156px;
+}
+
+.footer-nav a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin-right: 7px;
+  font-size: 13px;
+  padding-left: 2px;
+  position: relative;
+  top: -7px;
+}
+
+.footer-item {
+  display: inline-block;
+  margin-right: 3px;
+  border-right: 1px solid white;
+  height: 12px;
+}
+
+.footer-item:nth-child(4) {
+  border: none;
+}
+
+.footer-nav a:hover {
+  color: #0069b8;
+}
